@@ -28,5 +28,6 @@ dependencies:
   - rasterio
   - cenpy
   - contextily
+  - vega_datasets
   - pip:
     - segregation==1.4
