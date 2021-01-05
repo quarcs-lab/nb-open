@@ -7,6 +7,7 @@ dependencies:
   - bokeh
   - pip
   - geopandas
+  - seaborn
   - descartes
   - folium
   - ipython
@@ -26,8 +27,6 @@ dependencies:
   - geoviews
   - watermark
   - rasterio
-  - descartes
-  - folium
   - cenpy
   - contextily
   - pip:
