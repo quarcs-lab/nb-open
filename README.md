@@ -1,2 +1,2 @@
 # nb-open
-Jupyter notebook to explore and learn
+Jupyter notebooks to explore and learn
