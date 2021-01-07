@@ -15,30 +15,8 @@ The notebooks can be executed online at [GESIS Notebooks](https://notebooks.gesi
 
 [![Binder](https://notebooks.gesis.org/binder/badge_logo.svg)](https://notebooks.gesis.org/binder/v2/gh/quarcs-lab/nb-open/HEAD?urlpath=rstudio)
 
-.. image:: https://notebooks.gesis.org/binder/badge_logo.svg
- :target: https://notebooks.gesis.org/binder/v2/gh/quarcs-lab/nb-open/HEAD?urlpath=rstudio
 
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Still work in progress
-
-+ To launch the analysis for one-time usage click  (Work in progress, not usable yet)
-[![Binder](https://notebooks.gesis.org/binder/badge.svg)](https://notebooks.gesis.org/binder/v2/gh/quarcs-lab/nb-open/master?urlpath=lab/tree/01_geovisualization.ipynb)
-
-+ To import the analysis persistently use  
-[![Binder](https://notebooks.gesis.org/binder/badge.svg)](https://notebooks.gesis.org/services/binder/v2/gh/quarcs-lab/nb-open/master?urlpath=lab/tree/01_geovisualization.ipynb)
 
 
 ## Terms of Use
