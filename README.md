@@ -24,11 +24,11 @@ Materials are licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/
 
 ## Experimental
 
-Faster loading and permanent environments
+Faster loading and permanent environments?
 
-[![Binder](https://notebooks.gesis.org/binder/badge_logo.svg)](https://notebooks.gesis.org/services/binder/v2/gh/quarcs-lab/nb-open/HEAD?urlpath=lab)
+Jupyter+R: [![Binder](https://notebooks.gesis.org/binder/badge_logo.svg)](https://notebooks.gesis.org/services/binder/v2/gh/quarcs-lab/nb-open/HEAD?urlpath=lab)
 
-[![Binder](https://notebooks.gesis.org/binder/badge_logo.svg)](https://notebooks.gesis.org/services/binder/v2/gh/quarcs-lab/nb-open/HEAD?urlpath=rstudio)
+R Studio: [![Binder](https://notebooks.gesis.org/binder/badge_logo.svg)](https://notebooks.gesis.org/services/binder/v2/gh/quarcs-lab/nb-open/HEAD?urlpath=rstudio)
 
 
 
