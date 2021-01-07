@@ -13,6 +13,11 @@ The notebooks can be executed online at [GESIS Notebooks](https://notebooks.gesi
 - To open a virtual R Studio session, make sure you change you click on `File` and change it to `URL`. Then, write `rstudio` in the field `URL to open (optional)`. Finally, click on `launch`.
 
 
+[![Binder](https://notebooks.gesis.org/binder/badge_logo.svg)](https://notebooks.gesis.org/binder/v2/gh/quarcs-lab/nb-open/HEAD?urlpath=rstudio)
+
+.. image:: https://notebooks.gesis.org/binder/badge_logo.svg
+ :target: https://notebooks.gesis.org/binder/v2/gh/quarcs-lab/nb-open/HEAD?urlpath=rstudio
+
 ---
 
 
