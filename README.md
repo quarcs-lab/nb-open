@@ -6,11 +6,12 @@
 
 The notebooks can be executed online at [GESIS Notebooks](https://notebooks.gesis.org). Just copy the URL of this repository and paste it on the [BINDER form of GESIS](https://notebooks.gesis.org/binder/)
 
-- To open a virtual Jupyter lab session, make sure you change you click on `File` and change it to `URL`. Then, write `lab` in the field `URL to open (optional)`
-- To open a virtual R Studio session, make sure you change you click on `File` and change it to `URL`. Then, write `rstudio` in the field `URL to open (optional)`
+- To open a virtual Jupyter lab session, make sure you change you click on `File` and change it to `URL`. Then, write `lab` in the field `URL to open (optional)`. Finally, click on `launch`.
+- To open a virtual R Studio session, make sure you change you click on `File` and change it to `URL`. Then, write `rstudio` in the field `URL to open (optional)`. Finally, click on `launch`.
 ---
 
 
+## Still work in progress
 
 + To launch the analysis for one-time usage click  (Work in progress, not usable yet)
 [![Binder](https://notebooks.gesis.org/binder/badge.svg)](https://notebooks.gesis.org/binder/v2/gh/quarcs-lab/nb-open/master?urlpath=lab/tree/01_geovisualization.ipynb)
