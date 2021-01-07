@@ -8,7 +8,20 @@ The notebooks can be executed online at [GESIS Notebooks](https://notebooks.gesi
 
 - To open a virtual Jupyter lab session, make sure you change you click on `File` and change it to `URL`. Then, write `lab` in the field `URL to open (optional)`. Finally, click on `launch`.
 - To open a virtual R Studio session, make sure you change you click on `File` and change it to `URL`. Then, write `rstudio` in the field `URL to open (optional)`. Finally, click on `launch`.
+
+
 ---
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Still work in progress
