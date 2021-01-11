@@ -1,7 +1,10 @@
 ---
-title: "Exploring labor productivity differences across countries and over time"
-output: html_document
-
+title: "Introduction to expandr"
+output:
+  html_document:
+    keep_md: yes
+  github_document: default
+always_allow_html: true
 ---
  
  
@@ -79,7 +82,6 @@ t$kable_ret  %>%
  
  
 ```{r}
-# df <- dat[df$year == "1990", ]
 t <- prepare_descriptive_table(df)
 
 # Create a function to round the decimals of a df
@@ -150,7 +152,7 @@ prepare_quantile_trend_graph(df, "year", c(0.05, 0.25, 0.5, 0.75, 0.95), "lp", p
 ```
  
  
-#### lp  
+#### Custimized quantile trend graph  
 ```{r}
 log_lp_raw <- prepare_quantile_trend_graph(dat, "year", c(0.05, 0.25, 0.5, 0.75, 0.95), "log_lp_raw", points = FALSE)$plot
 ```
@@ -163,62 +165,9 @@ theme_minimal() +
   scale_color_discrete(name = "Quantile") +
   labs(x = "",
        y = "Log of Labor Productivity")
-ggsave("figs/quintiles_all_log_lp_raw.pdf", width = 6, height = 4)
+#ggsave("figs/quintiles_all_log_lp_raw.pdf", width = 6, height = 4)
+log_lp_raw
 ```
-
-
-#### ky  
-
-```{r}
-log_ky_raw <- prepare_quantile_trend_graph(dat, "year", c(0.05, 0.25, 0.5, 0.75, 0.95), "log_ky_raw", points = FALSE)$plot
-```
-
-
-```{r}
-log_ky_raw <- log_ky_raw +
-theme_minimal() +
-  guides(color = guide_legend(reverse = TRUE)) +
-  scale_color_discrete(name = "Quantile") +
-  labs(x = "",
-       y = "Log of Capital-Output Ratio")
-ggsave("figs/quintiles_all_log_ky_raw.pdf", width = 6, height = 4)
-```   
-
-
-#### h  
-
-```{r}
-log_h_raw <- prepare_quantile_trend_graph(dat, "year", c(0.05, 0.25, 0.5, 0.75, 0.95), "log_h_raw", points = FALSE)$plot
-```
-
-
-```{r}
-log_h_raw <- log_h_raw +
-theme_minimal() +
-  guides(color = guide_legend(reverse = TRUE)) +
-  scale_color_discrete(name = "Quantile") +
-  labs(x = "",
-       y = "Log of Human Capital")
-ggsave("figs/quintiles_all_log_h_raw.pdf", width = 6, height = 4)
-```  
-
-
-#### TFP  
-
-```{r}
-log_tfp_raw <- prepare_quantile_trend_graph(dat, "year", c(0.05, 0.25, 0.5, 0.75, 0.95), "log_tfp_raw", points = FALSE)$plot
-```
-
-
-```{r}
-log_tfp_raw <- log_tfp_raw +
-theme_minimal() +
-  guides(color = guide_legend(reverse = TRUE)) +
-  scale_color_discrete(name = "Quantile") +
-  labs(x = "",
-       y = "Log of Aggregate Efficiency")
-ggsave("figs/quintiles_all_log_tfp_raw.pdf", width = 6, height = 4)
-```   
 
  
 ### Correlation Graph
@@ -267,7 +216,6 @@ t
 ```
  
  
-### Note
+## References
  
-This Notebook has been automatically generated using the [ExPanDaR](https://joachim-gassen.github.io/ExPanDaR) package.
- 
+- <https://joachim-gassen.github.io/ExPanDaR>
