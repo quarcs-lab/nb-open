@@ -1,4 +1,4 @@
-name: env37
+name: envPy37
 channels:
   - conda-forge
   - defaults
